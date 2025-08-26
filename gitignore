@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+CompletePeaker-Metabolomics/.venv/
+CompletePeaker-Metabolomics/Lib/
+CompletePeaker-Metabolomics/Scripts/
+CompletePeaker-Metabolomics/pyvenv.cfg
+
+# OS junk
+.DS_Store
+Thumbs.db
