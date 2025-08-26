@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: completepeaker-metabolomics
+Version: 0.1.0
+Summary: CompletePeaker - Metabolomics: Peak boundary finder for LC-MS chromatograms
+Author: Anirudh Kashyap
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21
+Requires-Dist: scipy>=1.7
+Dynamic: license-file

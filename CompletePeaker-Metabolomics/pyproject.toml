@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "completepeaker-metabolomics"
+version = "0.1.0"
+description = "CompletePeaker - Metabolomics: Peak boundary finder for LC-MS chromatograms"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Anirudh Kashyap" }]
+dependencies = [
+  "numpy>=1.21",
+  "scipy>=1.7"
+]
+
+[project.scripts]
+completepeaker-met = "completepeaker_metabolomics.cli:main"
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["completepeaker_metabolomics*"]
