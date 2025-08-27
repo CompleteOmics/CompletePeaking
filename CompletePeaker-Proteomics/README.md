@@ -18,7 +18,17 @@ It uses a pre-trained **XGBoost model** together with peptide retention time ref
 
 Clone the repository and install:
 
+## USAGE
+
 ```bash
 git clone https://github.com/CompleteOmics/CompletePeaking.git
 cd CompletePeaking/CompletePeaker-Proteomics
 pip install -e .
+
+completepeaker-pro \
+  --input-folder path/to/mprophet \
+  --output-folder path/to/output \
+  --rt-peptides-file path/to/final.xlsx \
+  --model-file xgb_model.json
+
+
