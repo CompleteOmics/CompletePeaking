@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/completepeaker_proteomics/__init__.py
+src/completepeaker_proteomics/cli.py
+src/completepeaker_proteomics/core.py
+src/completepeaker_proteomics.egg-info/PKG-INFO
+src/completepeaker_proteomics.egg-info/SOURCES.txt
+src/completepeaker_proteomics.egg-info/dependency_links.txt
+src/completepeaker_proteomics.egg-info/entry_points.txt
+src/completepeaker_proteomics.egg-info/requires.txt
+src/completepeaker_proteomics.egg-info/top_level.txt

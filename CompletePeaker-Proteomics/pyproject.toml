@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "completepeaker-proteomics"
+version = "0.1.0"
+description = "CompletePeaker - Proteomics: XGBoost-based picker postfilter with RT gating"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Anirudh Kashyap" }]
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.21",
+  "xgboost>=2.0",
+  "openpyxl>=3.1",
+  "scikit-learn>=1.3"
+]
+
+
+[project.scripts]
+completepeaker-pro = "completepeaker_proteomics.cli:main"
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["completepeaker_proteomics*"]

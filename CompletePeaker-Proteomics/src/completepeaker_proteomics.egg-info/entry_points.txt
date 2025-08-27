@@ -1,0 +1,2 @@
+[console_scripts]
+completepeaker-pro = completepeaker_proteomics.cli:main
