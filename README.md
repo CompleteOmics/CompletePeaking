@@ -21,3 +21,21 @@ Clone the repository and choose the submodule you want to work with:
 ```bash
 git clone https://github.com/CompleteOmics/CompletePeaking.git
 cd CompletePeaking
+
+## **Metabolomics**
+cd CompletePeaker-Metabolomics
+pip install -e .
+
+## **Proteomics**
+cd CompletePeaker-Proteomics
+pip install -e .
+
+## Repository Structure
+CompletePeaking/
+ ├─ CompletePeaker-Metabolomics/   # Metabolomics peak picker
+ ├─ CompletePeaker-Proteomics/     # Proteomics peak picker
+ ├─ .gitignore
+ └─ README.md                      # This file
+
+
+
